@@ -1,0 +1,30 @@
+.score-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ee6666;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+  }
+  
+  .score-item {
+    text-align: center;
+    margin: 0 1rem;
+  }
+  
+  .label {
+    display: block;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .value {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
